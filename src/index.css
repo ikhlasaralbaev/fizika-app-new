@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+*::-webkit-scrollbar {
+	width: 5px;
+	background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #ddd;
+	border-radius: 5px;
+}
+
+.logo {
+	font-size: 2.2rem;
+	text-align: center;
+	color: #000 !important;
+	margin: 1rem 0;
+	font-weight: bold;
+}
+
+.logo span {
+	color: #dbdb00;
+}
+
+.heading {
+	text-align: left;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+	font-size: 1.6rem;
+	padding-left: 15px;
+	font-weight: bold;
+	color: #555;
+}
+
+.list .list-item {
+	padding: 7px 16px;
+	text-align: left;
+}
+
+.viewer-container {
+	height: 80vh;
+	width: 70vw;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.viewer-container * {
+	width: 100% !important;
+	text-align: left;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.home-container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 100%;
+	padding: 2rem;
+	min-height: 100vh;
+	animation: opacity 0.5s ease;
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 0;
+		transform: translate(-100px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+.home-container h1 {
+	color: #000;
+	text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	font-size: 2rem;
+}
+
+.home-container h4 {
+	color: #777;
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+
+.home-container span {
+	color: #333;
+	font-size: 1rem;
+}
+
+.home-container .underline {
+	text-decoration: underline;
+}
+
+.logo-wrap {
+	min-width: 180px;
+	min-height: 180px;
+	max-width: 180px;
+	max-height: 180px;
+	overflow: hidden;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 5px #000;
+	margin-top: 50px;
+}
+
+.logo-wrap img {
+	width: 110%;
+}
+
+button {
+	padding: 0.3rem 0.8rem;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(18, 168, 145);
+	color: #fff;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.row {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-start;
+	gap: 2rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.row .text-content {
+	text-align: center;
+}
+.ant-layout-sider {
+	background-color: #fff !important;
+}
