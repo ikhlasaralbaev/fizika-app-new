@@ -5,7 +5,7 @@ const Practices = ({ setTitle }) => {
 	const [practices, setPractices] = useState([])
 
 	useEffect(() => {
-		for (let i = 1; i < 17; i++) {
+		for (let i = 1; i < 16; i++) {
 			setPractices(prev => [
 				...prev,
 				{
